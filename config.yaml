@@ -1,18 +1,18 @@
 baseURL: "https://5k5k.github.io/"
-languageCode: en-us
+languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
 title: 5k5k
 
 languages:
-    en:
-        languageName: English
-        title: 5k5k
-        weight: 1
-#    zh-cn:
-#        languageName: 中文
+#    en:
+#        languageName: English
 #        title: 5k5k
-#        weight: 2
+#        weight: 1
+    zh-cn:
+        languageName: 中文
+        title: 5k5k
+        weight: 2
 
 # Change it to your Disqus shortname before using
 disqusShortname: 5k5k
@@ -23,11 +23,11 @@ googleAnalytics:
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
-DefaultContentLanguage: en
+DefaultContentLanguage: zh-cn
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: false
+hasCJKLanguage: true
 
 permalinks:
     post: /p/:slug/
@@ -54,7 +54,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: /images/user_icon.png
+            src: /images/avatars.jfif
 
     article:
         math: false
@@ -209,49 +209,49 @@ menu:
           url: /categories/Portfolio/
           params:
               icon: alien
-        - name: Model
-          weight: 130
-          url: /categories/Model/
-          params:
-              icon: alien
-        - name: Speech
-          weight: 140
-          url: /categories/Speech/
-          params:
-              icon: alien
-        - name: Sailboat
-          weight: 150
-          url: /categories/Sailboat/
-          params:
-              icon: alien
-        - name: Ski
-          weight: 160
-          url: /categories/Ski/
-          params:
-              icon: alien
-        - name: ClubActivities
-          weight: 170
-          url: /categories/ClubActivities/
-          params:
-              icon: alien
-        - name: CommunityCharity
-          weight: 180
-          url: /categories/CommunityCharity/
-          params:
-              icon: alien
+#        - name: Model
+#          weight: 130
+#          url: /categories/Model/
+#          params:
+#              icon: alien
+#        - name: Speech
+#          weight: 140
+#          url: /categories/Speech/
+#          params:
+#              icon: alien
+#        - name: Sailboat
+#          weight: 150
+#          url: /categories/Sailboat/
+#          params:
+#              icon: alien
+#        - name: Ski
+#          weight: 160
+#          url: /categories/Ski/
+#          params:
+#              icon: alien
+#        - name: ClubActivities
+#          weight: 170
+#          url: /categories/ClubActivities/
+#          params:
+#              icon: alien
+#        - name: CommunityCharity
+#          weight: 180
+#          url: /categories/CommunityCharity/
+#          params:
+#              icon: alien
 
-    social:
+#    social:
 #        - identifier: github
 #          name: GitHub
 #          url: https://github.com/CaiJimmy/hugo-theme-stack
 #          params:
 #              icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
-          params:
-              icon: brand-twitter
+#        - identifier: twitter
+#          name: Twitter
+#          url: https://twitter.com
+#          params:
+#              icon: brand-twitter
 
 related:
     includeNewer: true
