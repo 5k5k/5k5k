@@ -1,10 +1,26 @@
 {{ define "main" }}
     <header>
+        {{ $currentPage := . }}
+
         <h3 class="section-title">
             {{ if eq .Parent (.GetPage "/") }}
                 {{ T "list.section" }}
             {{ else }}
-                {{ .Title }}
+<!--                {{ .Parent.Title }}-->
+                {{ $n := "" }}
+                {{ range .Site.Menus.main }}
+                    {{ if .Params.cnName }}
+                        {{ if eq .Name $currentPage.Title }}
+                            {{ $n = .Params.cnName }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+
+                {{ if $n }}
+                    {{ $n }}
+                {{ else }}
+                    {{ .Title }}
+                {{ end }}
             {{ end }}
         </h3>
 
