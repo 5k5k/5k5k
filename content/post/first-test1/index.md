@@ -13,6 +13,8 @@ categories = [
 "ClubActivities",
 "CommunityCharity",
 "PictureShow",
+"Develop",
+"kaifa",
 "Travel",
 ]
 series = ["Themes Guide"]

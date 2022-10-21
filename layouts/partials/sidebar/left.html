@@ -70,7 +70,13 @@
                 {{ with $icon }}
                     {{ partial "helper/icon" . }}
                 {{ end }}
-                <span>{{- .Name -}}</span>
+                <span>
+                    {{ if .Params.cnName }}
+                        {{- .Params.cnName -}}
+                    {{ else }}
+                        {{- .Name -}}
+                    {{ end }}
+                </span>
             </a>
         </li>
         {{ end }}

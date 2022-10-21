@@ -65,7 +65,7 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: true
+        enabled: false
         provider: disqus
 
         disqusjs:
@@ -175,7 +175,7 @@ params:
         toggle: true
 
         # Available values: auto, light, dark
-        default: auto
+        default: dark
 
     imageProcessing:
         cover:
@@ -194,21 +194,22 @@ menu:
 #          weight: 1
 #          params:
 #              icon: brand-github
-        - name: Travel
+        - name: Develop
           weight: 100
-          url: /categories/Travel/
+          url: /categories/Develop/
           params:
               icon: alien
-        - name: PictureShow
-          weight: 110
-          url: /categories/PictureShow/
-          params:
-              icon: alien
-        - name: Portfolio
-          weight: 120
-          url: /categories/Portfolio/
-          params:
-              icon: alien
+              cnName: 开发
+#        - name: PictureShow
+#          weight: 110
+#          url: /categories/PictureShow/
+#          params:
+#              icon: alien
+#        - name: Portfolio
+#          weight: 120
+#          url: /categories/Portfolio/
+#          params:
+#              icon: alien
 #        - name: Model
 #          weight: 130
 #          url: /categories/Model/
