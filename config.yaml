@@ -200,6 +200,12 @@ menu:
           params:
               icon: alien
               cnName: 开发
+        - name: Others
+          weight: 110
+          url: /categories/Others/
+          params:
+              icon: alien
+              cnName: 余兴
 #        - name: PictureShow
 #          weight: 110
 #          url: /categories/PictureShow/
