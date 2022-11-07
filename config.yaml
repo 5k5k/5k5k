@@ -2,7 +2,7 @@ baseURL: "https://5k5k.github.io/"
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
-title: 5k5k
+title: 智慧的卯捞头鹰
 
 languages:
 #    en:
@@ -11,7 +11,7 @@ languages:
 #        weight: 1
     zh-cn:
         languageName: 中文
-        title: 5k5k
+        title: 智慧的卯捞头鹰
         weight: 2
 
 # Change it to your Disqus shortname before using
@@ -38,7 +38,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:  # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: /favicon.svg # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
         since: 2022
@@ -50,7 +50,7 @@ params:
 
     sidebar:
 #        emoji: 🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥
-        subtitle: hi.
+        subtitle:
         avatar:
             enabled: true
             local: true
@@ -198,13 +198,13 @@ menu:
           weight: 100
           url: /categories/Develop/
           params:
-              icon: alien
+              icon: code
               cnName: 开发
         - name: Others
           weight: 110
           url: /categories/Others/
           params:
-              icon: alien
+              icon: interest
               cnName: 余兴
 #        - name: PictureShow
 #          weight: 110
