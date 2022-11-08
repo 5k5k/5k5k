@@ -1,21 +1,17 @@
 +++
 author = "Hugo Authors"
 title = "Markdown Syntax Guide"
-date = "2019-03-11"
+date = "2022-11-01"
 description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 tags = [
     "markdown",
-    "css",
-    "html",
-    "themes",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "Others",
 ]
 series = ["Themes Guide"]
 aliases = ["migrate-from-jekyl"]
-image = "pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg"
+image = "markdown.png"
 +++
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
@@ -166,3 +162,30 @@ Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and ot
 ## Hyperlinked image
 
 [![Google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png)](https://google.com)
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+Here's a simple footnote,[^2] and here's a longer one.[^bignote]
+
+[^2]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
+
+sdf
