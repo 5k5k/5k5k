@@ -14,6 +14,7 @@ aliases = ["migrate-from-jekyl"]
 image = "markdown.png"
 +++
 
+# [Markdown 中文官方网站](https://markdown.com.cn/)
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
 <!--more-->
 
@@ -113,7 +114,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 </html>
 {{< /highlight >}}
 
-#### Diff code block
+#### Diff code block {#custom-id}
 
 ```diff
 [dependencies.bevy]
@@ -175,6 +176,18 @@ Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and ot
   "age": 25
 }
 ```
+
+[Heading IDs](#custom-id)
+
+~~世界是平坦的。~~ 我们现在知道世界是圆的。
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+去露营了！ :tent: 很快回来。
+
+真好笑！ :joy:
 
 Here's a simple footnote,[^2] and here's a longer one.[^bignote]
 
