@@ -196,26 +196,22 @@ menu:
 #              icon: brand-github
         - name: Develop
           weight: 100
-          url: /categories/Develop/
+          url: /categories/develop/
           params:
               icon: code
               cnName: 开发
         - name: Others
           weight: 110
-          url: /categories/Others/
+          url: /categories/others/
           params:
               icon: interest
               cnName: 余兴
-#        - name: PictureShow
-#          weight: 110
-#          url: /categories/PictureShow/
-#          params:
-#              icon: alien
-#        - name: Portfolio
-#          weight: 120
-#          url: /categories/Portfolio/
-#          params:
-#              icon: alien
+        - name: Daily
+          weight: 120
+          url: /categories/daily/
+          params:
+              icon: alien
+              cnName: 日常
 #        - name: Model
 #          weight: 130
 #          url: /categories/Model/
